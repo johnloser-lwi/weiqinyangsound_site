@@ -26,6 +26,16 @@ body {
     }
 }
 
+@media screen and (max-width: 600px) {
+    iframe {
+        height: 180px;
+    }
+
+    .card-title {
+        font-size: 1.1em;
+    }
+}
+
 img {
     border-radius: 5px;
 }
