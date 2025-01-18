@@ -9,6 +9,23 @@ body {
     
 }
 
+@media screen and (max-width: 1200px) {
+    iframe {
+        height: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    iframe {
+        height: 250px;
+    }
+    
+    .card-title {
+        font-size: 1.3em;
+    }
+}
+
 img {
     border-radius: 5px;
 }
