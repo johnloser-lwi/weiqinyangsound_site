@@ -16,37 +16,29 @@ body {
     
 }
 
-@media screen and (max-width: 600px) {
-    iframe {
-        height: 300px;
+@media screen and (max-width: 768px) {
+    #profile-picture {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        aspect-ratio: 16/10;
     }
-    
+}
+
+@media screen and (max-width: 600px) {
     .card-title {
         font-size: 1.3em;
     }
 }
 
-@media screen and (max-width: 500px) {
-    iframe {
-        height: 250px;
-    }
-}
-
 @media screen and (max-width: 400px) {
-    iframe {
-        height: 180px;
-    }
-
     .card-title {
         font-size: 1.1em;
     }
 }
 
 @media screen and (max-width: 350px) {
-    iframe {
-        height: 150px;
-    }
-
     .card-title {
         font-size: 1.0em;
     }
@@ -63,6 +55,9 @@ img {
 
 iframe {
     border-radius: 5px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/10;
 }
 
 .card-title {
