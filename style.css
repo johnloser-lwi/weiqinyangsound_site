@@ -16,9 +16,9 @@ body {
     
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     iframe {
-        height: 250px;
+        height: 300px;
     }
     
     .card-title {
@@ -26,7 +26,13 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    iframe {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     iframe {
         height: 180px;
     }
@@ -35,6 +41,21 @@ body {
         font-size: 1.1em;
     }
 }
+
+@media screen and (max-width: 350px) {
+    iframe {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1.0em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
 
 img {
     border-radius: 5px;
