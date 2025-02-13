@@ -18,11 +18,7 @@ body {
 
 @media screen and (max-width: 768px) {
     #profile-picture {
-        height: auto;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        aspect-ratio: 16/10;
+        display: none;
     }
 }
 
@@ -48,6 +44,9 @@ body {
     }
 }
 
+header {
+    margin-top: 1rem;
+}
 
 img {
     border-radius: 5px;
@@ -63,4 +62,21 @@ iframe {
 .card-title {
     text-transform: uppercase;
     font-weight: bold;
+}
+
+footer {
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-color: white;
 }
